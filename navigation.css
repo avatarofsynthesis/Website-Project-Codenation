@@ -1,0 +1,44 @@
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+    list-style: none;
+    margin: 0; 
+    background: invisible;
+  }
+
+.navigation a:hover {
+    background: invisible;
+} 
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1;
+    color: white;
+} 
+
+a:link {
+    color: rgb(227, 233, 145);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: rgb(190, 202, 253);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: rgb(112, 99, 221);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
